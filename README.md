@@ -7,6 +7,14 @@ Reference data for this project is collected from the accelerometers from the Sa
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
+Here are the data for the project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+
+Data been extracted to the folder called "UCI HAR Dataset"
+
+
 ### run_analysis.R 
 
 This Script does the following. 
@@ -18,7 +26,7 @@ This Script does the following.
 
 
  
-1.  Read the data set from TEST  and TRAIN folder 
+## Read the data set from TEST  and TRAIN folder 
 
 
 readData <- function(fname_suffix, path_prefix) { 
@@ -31,7 +39,7 @@ readData <- function(fname_suffix, path_prefix) {
 
 
 
-2.   Merge both TEST and TRAIN Data sets
+## Merge both TEST and TRAIN Data sets
 
 <!-- -->
 
@@ -45,7 +53,7 @@ mergeData <- function() {
 
 
 
-3.  Assign the Actity labels
+## Assign the Actity labels
 
 <!-- -->
 applyActivityLabel <- function(data) {
@@ -59,7 +67,7 @@ Fucntion "applyActivityLabel " assigns the Activity Labels to the data, label ar
 
 
 
-4.  Generate the tidy data set and store in "tidyDataFile.txt"
+## Generate the tidy data set and store in "tidyDataFile.txt"
 
 <!-- -->
 
