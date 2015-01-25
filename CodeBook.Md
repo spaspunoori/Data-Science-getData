@@ -4,7 +4,7 @@ Code Book that describes the data been used, variables,and any transformations o
 
 Data been organized into two sets "TEST" and "TRAIN"
 
-Each set contains
+## Each set contains
 
     1. measurements from the accelerometer and gyroscope
     2. activity label
@@ -15,10 +15,10 @@ The set of variables that were estimated from these signals are:
     mean: Mean value
     std: Standard deviation
 
-Data Columns
+## Data Columns
 
-    ActivityName: Activity being performed
-    SubjectID: ID indicating the subject from whom data was collected
+    ActivityName:  
+    SubjectID: 
     tBodyAccMeanX
     tBodyAccMeanY
     tBodyAccMeanZ
